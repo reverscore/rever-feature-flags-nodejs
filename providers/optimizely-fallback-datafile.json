@@ -1,6 +1,6 @@
 {
     "groups": [],
-    "environmentKey": "production",
+    "environmentKey": "devtest",
     "rollouts": [
         {
             "experiments": [
@@ -10,17 +10,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20742840164",
-                            "key": "20742840164",
+                            "id": "20789500328",
+                            "key": "20789500328",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20780370262",
-                    "key": "20780370262",
+                    "id": "20770860161",
+                    "key": "20770860161",
                     "layerId": "20780060163",
                     "trafficAllocation": [
                         {
-                            "entityId": "20742840164",
+                            "entityId": "20789500328",
                             "endOfRange": 10000
                         }
                     ],
@@ -37,17 +37,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "21422600359",
-                            "key": "21422600359",
+                            "id": "21424560033",
+                            "key": "21424560033",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "21431850083",
-                    "key": "21431850083",
+                    "id": "21445110434",
+                    "key": "21445110434",
                     "layerId": "21416541828",
                     "trafficAllocation": [
                         {
-                            "entityId": "21422600359",
+                            "entityId": "21424560033",
                             "endOfRange": 10000
                         }
                     ],
@@ -60,6 +60,62 @@
             "experiments": [
                 {
                     "status": "Running",
+                    "audienceConditions": [
+                        "or",
+                        "19936684880"
+                    ],
+                    "audienceIds": [
+                        "19936684880"
+                    ],
+                    "variations": [
+                        {
+                            "variables": [
+                                {
+                                    "id": "19928064583",
+                                    "value": "true"
+                                }
+                            ],
+                            "id": "19937855913",
+                            "key": "19937855913",
+                            "featureEnabled": true
+                        }
+                    ],
+                    "id": "19920375235",
+                    "key": "19920375235",
+                    "layerId": "19953135425",
+                    "trafficAllocation": [],
+                    "forcedVariations": {}
+                },
+                {
+                    "status": "Running",
+                    "audienceConditions": [
+                        "or",
+                        "19958954375"
+                    ],
+                    "audienceIds": [
+                        "19958954375"
+                    ],
+                    "variations": [
+                        {
+                            "variables": [
+                                {
+                                    "id": "19928064583",
+                                    "value": "true"
+                                }
+                            ],
+                            "id": "19922645659",
+                            "key": "19922645659",
+                            "featureEnabled": true
+                        }
+                    ],
+                    "id": "19961014684",
+                    "key": "19961014684",
+                    "layerId": "19953135425",
+                    "trafficAllocation": [],
+                    "forcedVariations": {}
+                },
+                {
+                    "status": "Running",
                     "audienceIds": [],
                     "variations": [
                         {
@@ -69,13 +125,13 @@
                                     "value": "true"
                                 }
                             ],
-                            "id": "19947325575",
-                            "key": "19947325575",
+                            "id": "19958935932",
+                            "key": "19958935932",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19951205141",
-                    "key": "19951205141",
+                    "id": "19949325031",
+                    "key": "19949325031",
                     "layerId": "19953135425",
                     "trafficAllocation": [],
                     "forcedVariations": {}
@@ -91,17 +147,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20975820063",
-                            "key": "20975820063",
+                            "id": "20982160121",
+                            "key": "20982160121",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20975720122",
-                    "key": "20975720122",
+                    "id": "20974490118",
+                    "key": "20974490118",
                     "layerId": "20987460106",
                     "trafficAllocation": [
                         {
-                            "entityId": "20975820063",
+                            "entityId": "20982160121",
                             "endOfRange": 10000
                         }
                     ],
@@ -118,15 +174,20 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "21356340671",
-                            "key": "21356340671",
+                            "id": "21376070614",
+                            "key": "21376070614",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "21370500762",
-                    "key": "21370500762",
+                    "id": "21370600604",
+                    "key": "21370600604",
                     "layerId": "21372560011",
-                    "trafficAllocation": [],
+                    "trafficAllocation": [
+                        {
+                            "entityId": "21376070614",
+                            "endOfRange": 10000
+                        }
+                    ],
                     "forcedVariations": {}
                 }
             ],
@@ -140,17 +201,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20199679210",
-                            "key": "20199679210",
+                            "id": "20221103422",
+                            "key": "20221103422",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20182868921",
-                    "key": "20182868921",
+                    "id": "20209863052",
+                    "key": "20209863052",
                     "layerId": "20200098828",
                     "trafficAllocation": [
                         {
-                            "entityId": "20199679210",
+                            "entityId": "20221103422",
                             "endOfRange": 10000
                         }
                     ],
@@ -167,17 +228,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20251481655",
-                            "key": "20251481655",
+                            "id": "20276931341",
+                            "key": "20276931341",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20277070031",
-                    "key": "20277070031",
+                    "id": "20263392019",
+                    "key": "20263392019",
                     "layerId": "20259991447",
                     "trafficAllocation": [
                         {
-                            "entityId": "20251481655",
+                            "entityId": "20276931341",
                             "endOfRange": 10000
                         }
                     ],
@@ -194,17 +255,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20017970172",
-                            "key": "20017970172",
+                            "id": "20006672683",
+                            "key": "20006672683",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19982767815",
-                    "key": "19982767815",
+                    "id": "20002568549",
+                    "key": "20002568549",
                     "layerId": "20014630042",
                     "trafficAllocation": [
                         {
-                            "entityId": "20017970172",
+                            "entityId": "20006672683",
                             "endOfRange": 10000
                         }
                     ],
@@ -221,17 +282,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "21171601694",
-                            "key": "21171601694",
+                            "id": "21185481380",
+                            "key": "21185481380",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "21182980999",
-                    "key": "21182980999",
+                    "id": "21174111908",
+                    "key": "21174111908",
                     "layerId": "21162621083",
                     "trafficAllocation": [
                         {
-                            "entityId": "21171601694",
+                            "entityId": "21185481380",
                             "endOfRange": 10000
                         }
                     ],
@@ -248,17 +309,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "19745757775",
-                            "key": "19745757775",
+                            "id": "19754978636",
+                            "key": "19754978636",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19724467190",
-                    "key": "19724467190",
+                    "id": "19738367515",
+                    "key": "19738367515",
                     "layerId": "19778722333",
                     "trafficAllocation": [
                         {
-                            "entityId": "19745757775",
+                            "entityId": "19754978636",
                             "endOfRange": 10000
                         }
                     ],
@@ -275,17 +336,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20267311596",
-                            "key": "20267311596",
+                            "id": "20238039335",
+                            "key": "20238039335",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20245429323",
-                    "key": "20245429323",
+                    "id": "20239759801",
+                    "key": "20239759801",
                     "layerId": "20222648730",
                     "trafficAllocation": [
                         {
-                            "entityId": "20267311596",
+                            "entityId": "20238039335",
                             "endOfRange": 10000
                         }
                     ],
@@ -298,47 +359,24 @@
             "experiments": [
                 {
                     "status": "Running",
-                    "audienceConditions": [
-                        "or",
-                        "21383260285"
-                    ],
-                    "audienceIds": [
-                        "21383260285"
-                    ],
-                    "variations": [
-                        {
-                            "variables": [],
-                            "id": "21375650103",
-                            "key": "21375650103",
-                            "featureEnabled": true
-                        }
-                    ],
-                    "id": "21375690144",
-                    "key": "21375690144",
-                    "layerId": "21316890437",
-                    "trafficAllocation": [
-                        {
-                            "entityId": "21375650103",
-                            "endOfRange": 10000
-                        }
-                    ],
-                    "forcedVariations": {}
-                },
-                {
-                    "status": "Running",
                     "audienceIds": [],
                     "variations": [
                         {
                             "variables": [],
-                            "id": "21343590242",
-                            "key": "21343590242",
+                            "id": "21340010168",
+                            "key": "21340010168",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "21342080270",
-                    "key": "21342080270",
+                    "id": "21330450561",
+                    "key": "21330450561",
                     "layerId": "21316890437",
-                    "trafficAllocation": [],
+                    "trafficAllocation": [
+                        {
+                            "entityId": "21340010168",
+                            "endOfRange": 10000
+                        }
+                    ],
                     "forcedVariations": {}
                 }
             ],
@@ -352,15 +390,20 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "19751217699",
-                            "key": "19751217699",
+                            "id": "19726608676",
+                            "key": "19726608676",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19738147945",
-                    "key": "19738147945",
+                    "id": "19714547711",
+                    "key": "19714547711",
                     "layerId": "19762116003",
-                    "trafficAllocation": [],
+                    "trafficAllocation": [
+                        {
+                            "entityId": "19726608676",
+                            "endOfRange": 10000
+                        }
+                    ],
                     "forcedVariations": {}
                 }
             ],
@@ -370,60 +413,28 @@
             "experiments": [
                 {
                     "status": "Running",
-                    "audienceIds": [],
+                    "audienceConditions": [
+                        "or",
+                        "19739734715"
+                    ],
+                    "audienceIds": [
+                        "19739734715"
+                    ],
                     "variations": [
                         {
                             "variables": [],
-                            "id": "19745974026",
-                            "key": "19745974026",
+                            "id": "19742126112",
+                            "key": "19742126112",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19732668239",
-                    "key": "19732668239",
+                    "id": "19720883563",
+                    "key": "19720883563",
                     "layerId": "19738352932",
                     "trafficAllocation": [
                         {
-                            "entityId": "19745974026",
+                            "entityId": "19742126112",
                             "endOfRange": 10000
-                        }
-                    ],
-                    "forcedVariations": {}
-                }
-            ],
-            "id": "19738352932"
-        },
-        {
-            "experiments": [
-                {
-                    "status": "Running",
-                    "audienceConditions": [
-                        "or",
-                        "20089300635"
-                    ],
-                    "audienceIds": [
-                        "20089300635"
-                    ],
-                    "variations": [
-                        {
-                            "variables": [
-                                {
-                                    "id": "19888001461",
-                                    "value": "5"
-                                }
-                            ],
-                            "id": "20073806442",
-                            "key": "20073806442",
-                            "featureEnabled": true
-                        }
-                    ],
-                    "id": "20062334173",
-                    "key": "20062334173",
-                    "layerId": "19892290986",
-                    "trafficAllocation": [
-                        {
-                            "entityId": "20073806442",
-                            "endOfRange": 5000
                         }
                     ],
                     "forcedVariations": {}
@@ -433,19 +444,41 @@
                     "audienceIds": [],
                     "variations": [
                         {
+                            "variables": [],
+                            "id": "19762123757",
+                            "key": "19762123757",
+                            "featureEnabled": true
+                        }
+                    ],
+                    "id": "19728422628",
+                    "key": "19728422628",
+                    "layerId": "19738352932",
+                    "trafficAllocation": [],
+                    "forcedVariations": {}
+                }
+            ],
+            "id": "19738352932"
+        },
+        {
+            "experiments": [
+                {
+                    "status": "Running",
+                    "audienceIds": [],
+                    "variations": [
+                        {
                             "variables": [
                                 {
                                     "id": "19888001461",
                                     "value": "5"
                                 }
                             ],
-                            "id": "19920950103",
-                            "key": "19920950103",
+                            "id": "19878730776",
+                            "key": "19878730776",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19886431191",
-                    "key": "19886431191",
+                    "id": "19899002362",
+                    "key": "19899002362",
                     "layerId": "19892290986",
                     "trafficAllocation": [],
                     "forcedVariations": {}
@@ -461,17 +494,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "19757014321",
-                            "key": "19757014321",
+                            "id": "19714647143",
+                            "key": "19714647143",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19750056415",
-                    "key": "19750056415",
+                    "id": "19826480074",
+                    "key": "19826480074",
                     "layerId": "19728515373",
                     "trafficAllocation": [
                         {
-                            "entityId": "19757014321",
+                            "entityId": "19714647143",
                             "endOfRange": 10000
                         }
                     ],
@@ -486,25 +519,25 @@
                     "status": "Running",
                     "audienceConditions": [
                         "or",
-                        "20221867743"
+                        "20195644356"
                     ],
                     "audienceIds": [
-                        "20221867743"
+                        "20195644356"
                     ],
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20234556780",
-                            "key": "20234556780",
+                            "id": "20209264270",
+                            "key": "20209264270",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20234567328",
-                    "key": "20234567328",
+                    "id": "20191972123",
+                    "key": "20191972123",
                     "layerId": "20180652206",
                     "trafficAllocation": [
                         {
-                            "entityId": "20234556780",
+                            "entityId": "20209264270",
                             "endOfRange": 10000
                         }
                     ],
@@ -516,15 +549,20 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20197890216",
-                            "key": "20197890216",
+                            "id": "20204965748",
+                            "key": "20204965748",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20176925737",
-                    "key": "20176925737",
+                    "id": "20195681267",
+                    "key": "20195681267",
                     "layerId": "20180652206",
-                    "trafficAllocation": [],
+                    "trafficAllocation": [
+                        {
+                            "entityId": "20204965748",
+                            "endOfRange": 10000
+                        }
+                    ],
                     "forcedVariations": {}
                 }
             ],
@@ -538,17 +576,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "19720506055",
-                            "key": "19720506055",
+                            "id": "19734606452",
+                            "key": "19734606452",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19730198591",
-                    "key": "19730198591",
+                    "id": "19736329789",
+                    "key": "19736329789",
                     "layerId": "19720635677",
                     "trafficAllocation": [
                         {
-                            "entityId": "19720506055",
+                            "entityId": "19734606452",
                             "endOfRange": 10000
                         }
                     ],
@@ -571,17 +609,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "21015120670",
-                            "key": "21015120670",
+                            "id": "20997830679",
+                            "key": "20997830679",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "21007980744",
-                    "key": "21007980744",
+                    "id": "20994000630",
+                    "key": "20994000630",
                     "layerId": "20060107953",
                     "trafficAllocation": [
                         {
-                            "entityId": "21015120670",
+                            "entityId": "20997830679",
                             "endOfRange": 10000
                         }
                     ],
@@ -593,13 +631,13 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20046058210",
-                            "key": "20046058210",
+                            "id": "20071901053",
+                            "key": "20071901053",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20053648097",
-                    "key": "20053648097",
+                    "id": "20055327432",
+                    "key": "20055327432",
                     "layerId": "20060107953",
                     "trafficAllocation": [],
                     "forcedVariations": {}
@@ -620,17 +658,17 @@
                                     "value": "3.4.5"
                                 }
                             ],
-                            "id": "20206204259",
-                            "key": "20206204259",
+                            "id": "20184780098",
+                            "key": "20184780098",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20231195613",
-                    "key": "20231195613",
+                    "id": "20234995680",
+                    "key": "20234995680",
                     "layerId": "20238993971",
                     "trafficAllocation": [
                         {
-                            "entityId": "20206204259",
+                            "entityId": "20184780098",
                             "endOfRange": 10000
                         }
                     ],
@@ -643,44 +681,21 @@
             "experiments": [
                 {
                     "status": "Running",
-                    "audienceConditions": [
-                        "or",
-                        "20075462543"
-                    ],
-                    "audienceIds": [
-                        "20075462543"
-                    ],
-                    "variations": [
-                        {
-                            "variables": [],
-                            "id": "20050393170",
-                            "key": "20050393170",
-                            "featureEnabled": true
-                        }
-                    ],
-                    "id": "20077810425",
-                    "key": "20077810425",
-                    "layerId": "20068131636",
-                    "trafficAllocation": [],
-                    "forcedVariations": {}
-                },
-                {
-                    "status": "Running",
                     "audienceIds": [],
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20085550599",
-                            "key": "20085550599",
+                            "id": "20081470917",
+                            "key": "20081470917",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20040693258",
-                    "key": "20040693258",
+                    "id": "20085590163",
+                    "key": "20085590163",
                     "layerId": "20068131636",
                     "trafficAllocation": [
                         {
-                            "entityId": "20085550599",
+                            "entityId": "20081470917",
                             "endOfRange": 10000
                         }
                     ],
@@ -697,17 +712,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20246320133",
-                            "key": "20246320133",
+                            "id": "20254949475",
+                            "key": "20254949475",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20236089270",
-                    "key": "20236089270",
+                    "id": "20250051058",
+                    "key": "20250051058",
                     "layerId": "20239799739",
                     "trafficAllocation": [
                         {
-                            "entityId": "20246320133",
+                            "entityId": "20254949475",
                             "endOfRange": 10000
                         }
                     ],
@@ -724,13 +739,13 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20104632483",
-                            "key": "20104632483",
+                            "id": "20100512448",
+                            "key": "20100512448",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20104621893",
-                    "key": "20104621893",
+                    "id": "20118303216",
+                    "key": "20118303216",
                     "layerId": "20123442878",
                     "trafficAllocation": [],
                     "forcedVariations": {}
@@ -751,17 +766,17 @@
                                     "value": "300000"
                                 }
                             ],
-                            "id": "20421542600",
-                            "key": "20421542600",
+                            "id": "20423535790",
+                            "key": "20423535790",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20400385356",
-                    "key": "20400385356",
+                    "id": "20425364135",
+                    "key": "20425364135",
                     "layerId": "20430954175",
                     "trafficAllocation": [
                         {
-                            "entityId": "20421542600",
+                            "entityId": "20423535790",
                             "endOfRange": 10000
                         }
                     ],
@@ -778,17 +793,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "19802390845",
-                            "key": "19802390845",
+                            "id": "19762115997",
+                            "key": "19762115997",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19743679609",
-                    "key": "19743679609",
+                    "id": "19739517324",
+                    "key": "19739517324",
                     "layerId": "19732864321",
                     "trafficAllocation": [
                         {
-                            "entityId": "19802390845",
+                            "entityId": "19762115997",
                             "endOfRange": 10000
                         }
                     ],
@@ -805,17 +820,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "19760337784",
-                            "key": "19760337784",
+                            "id": "19862860436",
+                            "key": "19862860436",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19892300028",
-                    "key": "19892300028",
+                    "id": "19891760435",
+                    "key": "19891760435",
                     "layerId": "19868761410",
                     "trafficAllocation": [
                         {
-                            "entityId": "19760337784",
+                            "entityId": "19862860436",
                             "endOfRange": 10000
                         }
                     ],
@@ -838,17 +853,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20915660337",
-                            "key": "20915660337",
+                            "id": "20921630589",
+                            "key": "20921630589",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20896410433",
-                    "key": "20896410433",
+                    "id": "20908180385",
+                    "key": "20908180385",
                     "layerId": "20929020357",
                     "trafficAllocation": [
                         {
-                            "entityId": "20915660337",
+                            "entityId": "20921630589",
                             "endOfRange": 10000
                         }
                     ],
@@ -860,13 +875,13 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20919940252",
-                            "key": "20919940252",
+                            "id": "20898240381",
+                            "key": "20898240381",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20907980297",
-                    "key": "20907980297",
+                    "id": "20913570269",
+                    "key": "20913570269",
                     "layerId": "20929020357",
                     "trafficAllocation": [],
                     "forcedVariations": {}
@@ -882,17 +897,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20564550014",
-                            "key": "20564550014",
+                            "id": "20555668575",
+                            "key": "20555668575",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20546580368",
-                    "key": "20546580368",
+                    "id": "20561326745",
+                    "key": "20561326745",
                     "layerId": "20559456995",
                     "trafficAllocation": [
                         {
-                            "entityId": "20564550014",
+                            "entityId": "20555668575",
                             "endOfRange": 10000
                         }
                     ],
@@ -909,15 +924,20 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "21528330993",
-                            "key": "21528330993",
+                            "id": "21556620132",
+                            "key": "21556620132",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "21569410430",
-                    "key": "21569410430",
+                    "id": "21541701668",
+                    "key": "21541701668",
                     "layerId": "21574980286",
-                    "trafficAllocation": [],
+                    "trafficAllocation": [
+                        {
+                            "entityId": "21556620132",
+                            "endOfRange": 10000
+                        }
+                    ],
                     "forcedVariations": {}
                 }
             ],
@@ -937,15 +957,20 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20356612166",
-                            "key": "20356612166",
+                            "id": "20383122747",
+                            "key": "20383122747",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20370130008",
-                    "key": "20370130008",
+                    "id": "20383152499",
+                    "key": "20383152499",
                     "layerId": "20362710243",
-                    "trafficAllocation": [],
+                    "trafficAllocation": [
+                        {
+                            "entityId": "20383122747",
+                            "endOfRange": 10000
+                        }
+                    ],
                     "forcedVariations": {}
                 },
                 {
@@ -954,13 +979,13 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20373340318",
-                            "key": "20373340318",
+                            "id": "20360740270",
+                            "key": "20360740270",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20375860344",
-                    "key": "20375860344",
+                    "id": "20369820306",
+                    "key": "20369820306",
                     "layerId": "20362710243",
                     "trafficAllocation": [],
                     "forcedVariations": {}
@@ -974,6 +999,34 @@
                     "status": "Running",
                     "audienceConditions": [
                         "or",
+                        "21094190582"
+                    ],
+                    "audienceIds": [
+                        "21094190582"
+                    ],
+                    "variations": [
+                        {
+                            "variables": [],
+                            "id": "21050680910",
+                            "key": "21050680910",
+                            "featureEnabled": true
+                        }
+                    ],
+                    "id": "21076230247",
+                    "key": "21076230247",
+                    "layerId": "20902752234",
+                    "trafficAllocation": [
+                        {
+                            "entityId": "21050680910",
+                            "endOfRange": 10000
+                        }
+                    ],
+                    "forcedVariations": {}
+                },
+                {
+                    "status": "Running",
+                    "audienceConditions": [
+                        "or",
                         "20902172638"
                     ],
                     "audienceIds": [
@@ -982,17 +1035,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20929472757",
-                            "key": "20929472757",
+                            "id": "20925531645",
+                            "key": "20925531645",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20935152317",
-                    "key": "20935152317",
+                    "id": "20923603270",
+                    "key": "20923603270",
                     "layerId": "20902752234",
                     "trafficAllocation": [
                         {
-                            "entityId": "20929472757",
+                            "entityId": "20925531645",
                             "endOfRange": 10000
                         }
                     ],
@@ -1004,13 +1057,13 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20905913553",
-                            "key": "20905913553",
+                            "id": "20937092874",
+                            "key": "20937092874",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20945160939",
-                    "key": "20945160939",
+                    "id": "20923593617",
+                    "key": "20923593617",
                     "layerId": "20902752234",
                     "trafficAllocation": [],
                     "forcedVariations": {}
@@ -1026,17 +1079,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20297123131",
-                            "key": "20297123131",
+                            "id": "20283943092",
+                            "key": "20283943092",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20272503030",
-                    "key": "20272503030",
+                    "id": "20270199525",
+                    "key": "20270199525",
                     "layerId": "20280104941",
                     "trafficAllocation": [
                         {
-                            "entityId": "20297123131",
+                            "entityId": "20283943092",
                             "endOfRange": 10000
                         }
                     ],
@@ -1053,20 +1106,15 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "19743788580",
-                            "key": "19743788580",
+                            "id": "19808942205",
+                            "key": "19808942205",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "19724426041",
-                    "key": "19724426041",
+                    "id": "19712786763",
+                    "key": "19712786763",
                     "layerId": "19726777967",
-                    "trafficAllocation": [
-                        {
-                            "entityId": "19743788580",
-                            "endOfRange": 10000
-                        }
-                    ],
+                    "trafficAllocation": [],
                     "forcedVariations": {}
                 }
             ],
@@ -1080,17 +1128,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "21407340496",
-                            "key": "21407340496",
+                            "id": "21362042416",
+                            "key": "21362042416",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "21403181228",
-                    "key": "21403181228",
+                    "id": "21390080379",
+                    "key": "21390080379",
                     "layerId": "21362262640",
                     "trafficAllocation": [
                         {
-                            "entityId": "21407340496",
+                            "entityId": "21362042416",
                             "endOfRange": 10000
                         }
                     ],
@@ -1107,15 +1155,20 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20833150005",
-                            "key": "20833150005",
+                            "id": "20820000183",
+                            "key": "20820000183",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20742771944",
-                    "key": "20742771944",
+                    "id": "20827420007",
+                    "key": "20827420007",
                     "layerId": "20825870003",
-                    "trafficAllocation": [],
+                    "trafficAllocation": [
+                        {
+                            "entityId": "20820000183",
+                            "endOfRange": 10000
+                        }
+                    ],
                     "forcedVariations": {}
                 }
             ],
@@ -1129,17 +1182,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20550161233",
-                            "key": "20550161233",
+                            "id": "20582680856",
+                            "key": "20582680856",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20569901158",
-                    "key": "20569901158",
+                    "id": "20550850070",
+                    "key": "20550850070",
                     "layerId": "20589910135",
                     "trafficAllocation": [
                         {
-                            "entityId": "20550161233",
+                            "entityId": "20582680856",
                             "endOfRange": 10000
                         }
                     ],
@@ -1156,17 +1209,17 @@
                     "variations": [
                         {
                             "variables": [],
-                            "id": "20871460027",
-                            "key": "20871460027",
+                            "id": "20879260056",
+                            "key": "20879260056",
                             "featureEnabled": true
                         }
                     ],
-                    "id": "20869700118",
-                    "key": "20869700118",
+                    "id": "20873750050",
+                    "key": "20873750050",
                     "layerId": "20853750138",
                     "trafficAllocation": [
                         {
-                            "entityId": "20871460027",
+                            "entityId": "20879260056",
                             "endOfRange": 10000
                         }
                     ],
@@ -1178,78 +1231,90 @@
     ],
     "typedAudiences": [
         {
-            "id": "20075462543",
+            "id": "19958954375",
             "conditions": [
                 "and",
                 [
                     "or",
                     [
-                        "not",
-                        [
-                            "or",
-                            {
-                                "value": "5c6ec95082876200173513e0",
-                                "type": "custom_attribute",
-                                "name": "organization",
-                                "match": "exact"
-                            },
-                            {
-                                "value": "5c9a042fd965f00017cddb4b",
-                                "type": "custom_attribute",
-                                "name": "organization",
-                                "match": "exact"
-                            },
-                            {
-                                "value": "5ddf021ad1d33d00172f5988",
-                                "type": "custom_attribute",
-                                "name": "organization",
-                                "match": "exact"
-                            },
-                            {
-                                "value": "5c4e8733d36e3e0001562f6a",
-                                "type": "custom_attribute",
-                                "name": "organization",
-                                "match": "exact"
-                            }
-                        ]
-                    ],
+                        "or",
+                        {
+                            "value": true,
+                            "type": "custom_attribute",
+                            "name": "isCoach",
+                            "match": "exact"
+                        }
+                    ]
+                ],
+                [
+                    "or",
                     [
-                        "not",
-                        [
-                            "or",
-                            {
-                                "value": "essential",
-                                "type": "custom_attribute",
-                                "name": "organizationPlan",
-                                "match": "substring"
-                            }
-                        ]
+                        "or",
+                        {
+                            "value": "mobile",
+                            "type": "custom_attribute",
+                            "name": "platform",
+                            "match": "exact"
+                        }
+                    ]
+                ],
+                [
+                    "or",
+                    [
+                        "or",
+                        {
+                            "value": "ios",
+                            "type": "custom_attribute",
+                            "name": "os",
+                            "match": "exact"
+                        }
                     ]
                 ]
             ],
-            "name": "external & not essential organizations"
+            "name": "Coaches in Mobile running on iOS"
         },
         {
-            "id": "20089300635",
+            "id": "19936684880",
             "conditions": [
                 "and",
                 [
                     "or",
                     [
-                        "not",
-                        [
-                            "or",
-                            {
-                                "value": "essentials",
-                                "type": "custom_attribute",
-                                "name": "organizationPlan",
-                                "match": "substring"
-                            }
-                        ]
+                        "or",
+                        {
+                            "value": true,
+                            "type": "custom_attribute",
+                            "name": "isCoach",
+                            "match": "exact"
+                        }
+                    ]
+                ],
+                [
+                    "or",
+                    [
+                        "or",
+                        {
+                            "value": "android",
+                            "type": "custom_attribute",
+                            "name": "os",
+                            "match": "exact"
+                        }
+                    ]
+                ],
+                [
+                    "or",
+                    [
+                        "or",
+                        {
+                            "value": "mobile",
+                            "type": "custom_attribute",
+                            "name": "platform",
+                            "match": "exact"
+                        }
                     ]
                 ]
             ],
-            "name": "NonEssentialsPlan"
+            "name": "Coaches in Mobile running on Android"
         }
     ],
     "projectId": "19747435253",
@@ -1547,14 +1612,14 @@
     "version": "4",
     "audiences": [
         {
-            "id": "21000821631",
-            "conditions": "[\"and\", [\"or\", [\"not\", [\"or\", {\"match\": \"exact\", \"name\": \"site\", \"type\": \"custom_attribute\", \"value\": \"1234\"}]]]]",
-            "name": "Routines"
-        },
-        {
             "id": "20195644356",
             "conditions": "[\"and\", [\"or\", [\"or\", {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5c4e8733d36e3e0001562f6a\"}]]]",
             "name": "Rever Inc"
+        },
+        {
+            "id": "19958954375",
+            "conditions": "[\"or\", {\"match\": \"exact\", \"name\": \"$opt_dummy_attribute\", \"type\": \"custom_attribute\", \"value\": \"$opt_dummy_value\"}]",
+            "name": "Coaches in Mobile running on iOS"
         },
         {
             "id": "20933220235",
@@ -1562,19 +1627,19 @@
             "name": "Custom Rever Namings"
         },
         {
-            "id": "20075462543",
+            "id": "19936684880",
             "conditions": "[\"or\", {\"match\": \"exact\", \"name\": \"$opt_dummy_attribute\", \"type\": \"custom_attribute\", \"value\": \"$opt_dummy_value\"}]",
-            "name": "external & not essential organizations"
+            "name": "Coaches in Mobile running on Android"
         },
         {
-            "id": "20089300635",
-            "conditions": "[\"or\", {\"match\": \"exact\", \"name\": \"$opt_dummy_attribute\", \"type\": \"custom_attribute\", \"value\": \"$opt_dummy_value\"}]",
-            "name": "NonEssentialsPlan"
+            "id": "21094190582",
+            "conditions": "[\"and\", [\"or\", [\"or\", {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"61e603b3f5ae8400195aa458\"}]]]",
+            "name": "Orgs with Disabled Notifications in Dev"
         },
         {
-            "id": "21383260285",
-            "conditions": "[\"and\", [\"or\", [\"or\", {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5c4e85adbce79d00016d25b2\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5f22f8647fe2ae0019d6a16d\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"6074e223ccb44900197fc2ba\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5c4e8541bce79d00016d2528\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5c4e8702d36e3e0001562f17\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5ef669fa6004de0019b0e2e6\"}]]]",
-            "name": "Organization that see points"
+            "id": "19739734715",
+            "conditions": "[\"and\", [\"or\", [\"or\", {\"match\": \"exact\", \"name\": \"site\", \"type\": \"custom_attribute\", \"value\": \"5c769365e05b2d0017ee3270\"}]]]",
+            "name": "Rever Testing GDL Site"
         },
         {
             "id": "20902172638",
@@ -1582,9 +1647,9 @@
             "name": "Organizations With disabled email notifications"
         },
         {
-            "id": "20221867743",
-            "conditions": "[\"and\", [\"or\", [\"or\", {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5c4e8733d36e3e0001562f6a\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"61a669fd7b486f001c40045f\"}], [\"or\", {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"601c7652673cce001892ae8c\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"6074e223ccb44900197fc2ba\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"602f0a681f8cc90019cebf4e\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5c9a042fd965f00017cddb4b\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5c4e85adbce79d00016d25b2\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"618ee792bb0c9900196641d8\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"61a827e57efe87001b685a1e\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"61ae7c3313879e001b85ad40\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"61b16eab6e9f8d001ab9ec40\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"61b277e03af36e001deb167a\"}, {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"61b3575f3af36e001df65459\"}], [\"or\", {\"match\": \"exact\", \"name\": \"organization\", \"type\": \"custom_attribute\", \"value\": \"5c6ec95082876200173513e0\"}], [\"or\", {\"match\": \"exact\", \"name\": \"email\", \"type\": \"custom_attribute\", \"value\": \"mariana@reverscore.com\"}]]]",
-            "name": "API KEYS enabled organizations"
+            "id": "21000821631",
+            "conditions": "[\"and\", [\"or\", [\"not\", [\"or\", {\"match\": \"exact\", \"name\": \"site\", \"type\": \"custom_attribute\", \"value\": \"1234\"}]]]]",
+            "name": "Routines"
         },
         {
             "conditions": "[\"or\", {\"match\": \"exact\", \"name\": \"$opt_dummy_attribute\", \"type\": \"custom_attribute\", \"value\": \"$opt_dummy_value\"}]",
@@ -1593,7 +1658,7 @@
         }
     ],
     "anonymizeIP": true,
-    "sdkKey": "K8a5mR5JBKt93mMmwS4bf",
+    "sdkKey": "SuX2ipfo9KaYh9GTLL3j5",
     "attributes": [
         {
             "id": "19712844835",
@@ -1659,5 +1724,5 @@
     "botFiltering": false,
     "accountId": "19747435253",
     "events": [],
-    "revision": "634"
+    "revision": "629"
 }
