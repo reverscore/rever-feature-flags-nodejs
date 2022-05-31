@@ -1,0 +1,28 @@
+{
+  "name": "rever-feature-flags-nodejs",
+  "version": "1.0.0",
+  "description": "Nodejs wrapper for Rever feature flags",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit --recursive tests/*.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reverscore/rever-feature-flags-nodejs.git"
+  },
+  "author": "Alberto Arias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reverscore/rever-feature-flags-nodejs/issues"
+  },
+  "homepage": "https://github.com/reverscore/rever-feature-flags-nodejs#readme",
+  "dependencies": {
+    "@optimizely/optimizely-sdk": "^4.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "sinon": "^14.0.0",
+    "sinon-chai": "^3.7.0"
+  }
+}
